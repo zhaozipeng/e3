@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/e3-api-content" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-api-goods" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-api-ordercart" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-api-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-api-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-commons-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-commons-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-service-content" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-service-goods" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-service-ordercart" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-service-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-service-user" charset="UTF-8" />
+  </component>
+</project>

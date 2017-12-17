@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/e3.iml" filepath="$PROJECT_DIR$/e3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-api-content/e3-api-content.iml" filepath="$PROJECT_DIR$/e3-api-content/e3-api-content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-api-goods/e3-api-goods.iml" filepath="$PROJECT_DIR$/e3-api-goods/e3-api-goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-api-ordercart/e3-api-ordercart.iml" filepath="$PROJECT_DIR$/e3-api-ordercart/e3-api-ordercart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-api-search/e3-api-search.iml" filepath="$PROJECT_DIR$/e3-api-search/e3-api-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-api-user/e3-api-user.iml" filepath="$PROJECT_DIR$/e3-api-user/e3-api-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-commons-config/e3-commons-config.iml" filepath="$PROJECT_DIR$/e3-commons-config/e3-commons-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-commons-core/e3-commons-core.iml" filepath="$PROJECT_DIR$/e3-commons-core/e3-commons-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-service-content/e3-service-content.iml" filepath="$PROJECT_DIR$/e3-service-content/e3-service-content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-service-goods/e3-service-goods.iml" filepath="$PROJECT_DIR$/e3-service-goods/e3-service-goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-service-ordercart/e3-service-ordercart.iml" filepath="$PROJECT_DIR$/e3-service-ordercart/e3-service-ordercart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-service-search/e3-service-search.iml" filepath="$PROJECT_DIR$/e3-service-search/e3-service-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-service-user/e3-service-user.iml" filepath="$PROJECT_DIR$/e3-service-user/e3-service-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-web-item/e3-web-item.iml" filepath="$PROJECT_DIR$/e3-web-item/e3-web-item.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-web-manager/e3-web-manager.iml" filepath="$PROJECT_DIR$/e3-web-manager/e3-web-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-web-ordercart/e3-web-ordercart.iml" filepath="$PROJECT_DIR$/e3-web-ordercart/e3-web-ordercart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-web-portal/e3-web-portal.iml" filepath="$PROJECT_DIR$/e3-web-portal/e3-web-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-web-search/e3-web-search.iml" filepath="$PROJECT_DIR$/e3-web-search/e3-web-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3-web-user/e3-web-user.iml" filepath="$PROJECT_DIR$/e3-web-user/e3-web-user.iml" />
+    </modules>
+  </component>
+</project>

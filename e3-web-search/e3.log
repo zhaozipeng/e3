@@ -1,0 +1,76 @@
+2017-12-01 14:16:37,062 [main-SendThread(172.17.61.58:2181)] [org.apache.zookeeper.ClientCnxn]-[DEBUG] Got ping response for sessionid: 0x16012486e810005 after 2ms
+2017-12-01 14:16:47,063 [main-SendThread(172.17.61.58:2181)] [org.apache.zookeeper.ClientCnxn]-[DEBUG] Got ping response for sessionid: 0x16012486e810005 after 2ms
+2017-12-01 14:16:57,067 [main-SendThread(172.17.61.58:2181)] [org.apache.zookeeper.ClientCnxn]-[DEBUG] Got ping response for sessionid: 0x16012486e810005 after 2ms
+2017-12-01 14:17:07,069 [main-SendThread(172.17.61.58:2181)] [org.apache.zookeeper.ClientCnxn]-[DEBUG] Got ping response for sessionid: 0x16012486e810005 after 2ms
+2017-12-01 14:17:17,070 [main-SendThread(172.17.61.58:2181)] [org.apache.zookeeper.ClientCnxn]-[DEBUG] Got ping response for sessionid: 0x16012486e810005 after 2ms
+2017-12-01 14:17:22,138 [dubbo-remoting-client-heartbeat-thread-1] [com.alibaba.dubbo.remoting.exchange.support.header.HeartBeatTask]-[DEBUG]  [DUBBO] Send heartbeat to remote channel /172.17.61.2:20893, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 172.17.61.2
+2017-12-01 14:17:22,142 [New I/O client worker #1-1] [com.alibaba.dubbo.remoting.exchange.support.header.HeartbeatHandler]-[DEBUG]  [DUBBO] Receive heartbeat response in thread New I/O client worker #1-1, dubbo version: 2.5.3, current host: 172.17.61.2
+2017-12-01 14:17:27,076 [main-SendThread(172.17.61.58:2181)] [org.apache.zookeeper.ClientCnxn]-[DEBUG] Got ping response for sessionid: 0x16012486e810005 after 2ms
+2017-12-01 14:17:36,484 [DubboMonitorSendTimer-thread-2] [com.alibaba.dubbo.monitor.dubbo.DubboMonitor]-[INFO]  [DUBBO] Send statistics to monitor zookeeper://172.17.61.58:2181/com.alibaba.dubbo.monitor.MonitorService?dubbo=2.5.3&interface=com.alibaba.dubbo.monitor.MonitorService&pid=9296&timestamp=1512106701545, dubbo version: 2.5.3, current host: 172.17.61.2
+2017-12-01 14:17:36,484 [DubboMonitorSendTimer-thread-2] [com.alibaba.dubbo.monitor.dubbo.DubboMonitor]-[ERROR]  [DUBBO] Unexpected error occur at send statistic, cause: Forbid consumer 172.17.61.2 access service com.alibaba.dubbo.monitor.MonitorService from registry 172.17.61.58:2181 use dubbo version 2.5.3, Please check registry access list (whitelist/blacklist)., dubbo version: 2.5.3, current host: 172.17.61.2
+com.alibaba.dubbo.rpc.RpcException: Forbid consumer 172.17.61.2 access service com.alibaba.dubbo.monitor.MonitorService from registry 172.17.61.58:2181 use dubbo version 2.5.3, Please check registry access list (whitelist/blacklist).
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.doList(RegistryDirectory.java:579)
+	at com.alibaba.dubbo.rpc.cluster.directory.AbstractDirectory.list(AbstractDirectory.java:73)
+	at com.alibaba.dubbo.rpc.cluster.support.AbstractClusterInvoker.list(AbstractClusterInvoker.java:260)
+	at com.alibaba.dubbo.rpc.cluster.support.AbstractClusterInvoker.invoke(AbstractClusterInvoker.java:219)
+	at com.alibaba.dubbo.rpc.cluster.support.wrapper.MockClusterInvoker.invoke(MockClusterInvoker.java:72)
+	at com.alibaba.dubbo.rpc.proxy.InvokerInvocationHandler.invoke(InvokerInvocationHandler.java:52)
+	at com.alibaba.dubbo.common.bytecode.proxy1.collect(proxy1.java)
+	at com.alibaba.dubbo.monitor.dubbo.DubboMonitor.send(DubboMonitor.java:113)
+	at com.alibaba.dubbo.monitor.dubbo.DubboMonitor$1.run(DubboMonitor.java:70)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-01 14:17:37,077 [main-SendThread(172.17.61.58:2181)] [org.apache.zookeeper.ClientCnxn]-[DEBUG] Got ping response for sessionid: 0x16012486e810005 after 3ms
+2017-12-01 14:17:47,080 [main-SendThread(172.17.61.58:2181)] [org.apache.zookeeper.ClientCnxn]-[DEBUG] Got ping response for sessionid: 0x16012486e810005 after 1ms
+2017-12-01 14:17:57,080 [main-SendThread(172.17.61.58:2181)] [org.apache.zookeeper.ClientCnxn]-[DEBUG] Got ping response for sessionid: 0x16012486e810005 after 0ms
+2017-12-01 14:18:07,084 [main-SendThread(172.17.61.58:2181)] [org.apache.zookeeper.ClientCnxn]-[DEBUG] Got ping response for sessionid: 0x16012486e810005 after 0ms
+2017-12-01 14:18:17,087 [main-SendThread(172.17.61.58:2181)] [org.apache.zookeeper.ClientCnxn]-[DEBUG] Got ping response for sessionid: 0x16012486e810005 after 3ms
+2017-12-01 14:18:22,143 [dubbo-remoting-client-heartbeat-thread-1] [com.alibaba.dubbo.remoting.exchange.support.header.HeartBeatTask]-[DEBUG]  [DUBBO] Send heartbeat to remote channel /172.17.61.2:20893, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 172.17.61.2
+2017-12-01 14:18:22,147 [New I/O client worker #1-1] [com.alibaba.dubbo.remoting.exchange.support.header.HeartbeatHandler]-[DEBUG]  [DUBBO] Receive heartbeat response in thread New I/O client worker #1-1, dubbo version: 2.5.3, current host: 172.17.61.2
+2017-12-01 14:18:27,096 [main-SendThread(172.17.61.58:2181)] [org.apache.zookeeper.ClientCnxn]-[DEBUG] Got ping response for sessionid: 0x16012486e810005 after 1ms
+2017-12-01 14:18:36,487 [DubboMonitorSendTimer-thread-2] [com.alibaba.dubbo.monitor.dubbo.DubboMonitor]-[INFO]  [DUBBO] Send statistics to monitor zookeeper://172.17.61.58:2181/com.alibaba.dubbo.monitor.MonitorService?dubbo=2.5.3&interface=com.alibaba.dubbo.monitor.MonitorService&pid=9296&timestamp=1512106701545, dubbo version: 2.5.3, current host: 172.17.61.2
+2017-12-01 14:18:36,487 [DubboMonitorSendTimer-thread-2] [com.alibaba.dubbo.monitor.dubbo.DubboMonitor]-[ERROR]  [DUBBO] Unexpected error occur at send statistic, cause: Forbid consumer 172.17.61.2 access service com.alibaba.dubbo.monitor.MonitorService from registry 172.17.61.58:2181 use dubbo version 2.5.3, Please check registry access list (whitelist/blacklist)., dubbo version: 2.5.3, current host: 172.17.61.2
+com.alibaba.dubbo.rpc.RpcException: Forbid consumer 172.17.61.2 access service com.alibaba.dubbo.monitor.MonitorService from registry 172.17.61.58:2181 use dubbo version 2.5.3, Please check registry access list (whitelist/blacklist).
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.doList(RegistryDirectory.java:579)
+	at com.alibaba.dubbo.rpc.cluster.directory.AbstractDirectory.list(AbstractDirectory.java:73)
+	at com.alibaba.dubbo.rpc.cluster.support.AbstractClusterInvoker.list(AbstractClusterInvoker.java:260)
+	at com.alibaba.dubbo.rpc.cluster.support.AbstractClusterInvoker.invoke(AbstractClusterInvoker.java:219)
+	at com.alibaba.dubbo.rpc.cluster.support.wrapper.MockClusterInvoker.invoke(MockClusterInvoker.java:72)
+	at com.alibaba.dubbo.rpc.proxy.InvokerInvocationHandler.invoke(InvokerInvocationHandler.java:52)
+	at com.alibaba.dubbo.common.bytecode.proxy1.collect(proxy1.java)
+	at com.alibaba.dubbo.monitor.dubbo.DubboMonitor.send(DubboMonitor.java:113)
+	at com.alibaba.dubbo.monitor.dubbo.DubboMonitor$1.run(DubboMonitor.java:70)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-01 14:18:37,097 [main-SendThread(172.17.61.58:2181)] [org.apache.zookeeper.ClientCnxn]-[DEBUG] Got ping response for sessionid: 0x16012486e810005 after 0ms
+2017-12-01 14:18:47,098 [main-SendThread(172.17.61.58:2181)] [org.apache.zookeeper.ClientCnxn]-[DEBUG] Got ping response for sessionid: 0x16012486e810005 after 0ms
+2017-12-01 14:18:48,085 [DubboClientHandler-172.17.61.2:20893-thread-5] [com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol]-[INFO]  [DUBBO] disconected from /172.17.61.2:20893,url:dubbo://172.17.61.2:20893/com.e3.service.search.service.SearchService?anyhost=true&application=e3-web-manager&check=false&codec=dubbo&default.accepts=1000&default.timeout=30000&dubbo=2.5.3&heartbeat=60000&interface=com.e3.service.search.service.SearchService&methods=addToSolr,selectItems,updateSolr&monitor=dubbo%3A%2F%2F172.17.61.58%3A2181%2Fcom.alibaba.dubbo.registry.RegistryService%3Fapplication%3De3-web-manager%26dubbo%3D2.5.3%26pid%3D9296%26protocol%3Dregistry%26refer%3Ddubbo%253D2.5.3%2526interface%253Dcom.alibaba.dubbo.monitor.MonitorService%2526pid%253D9296%2526timestamp%253D1512106701545%26registry%3Dzookeeper%26timestamp%3D1512106701541&pid=9296&retries=0&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1512106701506, dubbo version: 2.5.3, current host: 172.17.61.2
+2017-12-01 14:18:50,143 [DubboClientReconnectTimer-thread-1] [com.alibaba.dubbo.remoting.transport.AbstractClient]-[WARN]  [DUBBO] client reconnect to 172.17.61.2:20893 find error . url: dubbo://172.17.61.2:20893/com.e3.service.search.service.SearchService?anyhost=true&application=e3-web-manager&check=false&codec=dubbo&default.accepts=1000&default.timeout=30000&dubbo=2.5.3&heartbeat=60000&interface=com.e3.service.search.service.SearchService&methods=addToSolr,selectItems,updateSolr&monitor=dubbo%3A%2F%2F172.17.61.58%3A2181%2Fcom.alibaba.dubbo.registry.RegistryService%3Fapplication%3De3-web-manager%26dubbo%3D2.5.3%26pid%3D9296%26protocol%3Dregistry%26refer%3Ddubbo%253D2.5.3%2526interface%253Dcom.alibaba.dubbo.monitor.MonitorService%2526pid%253D9296%2526timestamp%253D1512106701545%26registry%3Dzookeeper%26timestamp%3D1512106701541&pid=9296&retries=0&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1512106701506, dubbo version: 2.5.3, current host: 172.17.61.2
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://172.17.61.2:20893/com.e3.service.search.service.SearchService?anyhost=true&application=e3-web-manager&check=false&codec=dubbo&default.accepts=1000&default.timeout=30000&dubbo=2.5.3&heartbeat=60000&interface=com.e3.service.search.service.SearchService&methods=addToSolr,selectItems,updateSolr&monitor=dubbo%3A%2F%2F172.17.61.58%3A2181%2Fcom.alibaba.dubbo.registry.RegistryService%3Fapplication%3De3-web-manager%26dubbo%3D2.5.3%26pid%3D9296%26protocol%3Dregistry%26refer%3Ddubbo%253D2.5.3%2526interface%253Dcom.alibaba.dubbo.monitor.MonitorService%2526pid%253D9296%2526timestamp%253D1512106701545%26registry%3Dzookeeper%26timestamp%3D1512106701541&pid=9296&retries=0&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1512106701506) failed to connect to server /172.17.61.2:20893, error message is:Connection refused: no further information
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.connect(NioClientSocketPipelineSink.java:384)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.processSelectedKeys(NioClientSocketPipelineSink.java:354)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.run(NioClientSocketPipelineSink.java:276)
+	... 3 more
